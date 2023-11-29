@@ -1,0 +1,8 @@
+-r requirements-min.txt
+canals
+farm-haystack
+multiprocessing_on_dill
+sentence-transformers # Needed for Retriever-based approach
+sqlglot
+tiktoken
+torch

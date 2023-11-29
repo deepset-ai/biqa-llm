@@ -1,0 +1,7 @@
+*
+# Include only these paths
+!api
+!*.txt
+!config.py
+!sql_common.py
+!sql_generation.py

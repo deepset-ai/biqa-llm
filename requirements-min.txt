@@ -1,0 +1,6 @@
+fastapi
+loguru
+openai==0.28.1
+pandas
+python-dotenv
+uvicorn[standard]

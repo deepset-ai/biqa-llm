@@ -1,0 +1,173 @@
+Table,Col_Name,Col_Type,Description
+Responses,id,INTEGER,Unique ID for Responses instances
+Responses,SurveyAgreement,TEXT,Agreement to participate in the survey
+Responses,ResponderDescription,TEXT,"Answers to ""Which of the following options best describes you today?"""
+Responses,Age,TEXT,Resopnder's age
+Responses,RemoteWork,TEXT,"Current work situation in terms of remote, in-person"
+Responses,EdLevel,TEXT,Highest level of formal education completed
+Responses,YearsCode,TEXT,"Total years responder has been coding, including education"
+Responses,YearsCodePro,TEXT,"Total years responder has been coding, not including education"
+Responses,DevType,TEXT,Best description of current job
+Responses,OrgSize,TEXT,Number of people employed at currently working organization
+Responses,PurchaseInfluence,TEXT,Personal influence over new technology purchases at the current organization
+Responses,TechList,TEXT,"""When thinking about new technology purchases at your organization, are you more likely to be given a short list of products/services to evaluate or be told to investigate on your own?"""
+Responses,Country,TEXT,Country of Residence
+Responses,Currency,TEXT,Currency being used day-to-day
+Responses,CompTotal,INTEGER,"Current total annual compensation (salary, bonuses, and perks, before taxes and deductions) in the specified currency"
+Responses,SOVisitFreq,TEXT,Frequency of visiting Stack Overflow
+Responses,SOAccount,TEXT,"""Do you have a Stack Overflow account?"""
+Responses,SOPartFreq,TEXT,Frequency of participation in Q&A on Stack Overflow
+Responses,SOComm,TEXT,"""Do you consider yourself a member of the Stack Overflow community?"""
+Responses,AISelect,TEXT,"""Do you currently use AI tools in your development process?"""
+Responses,AISent,TEXT,"""How favorable is your stance on using AI tools as part of your development workflow?"""
+Responses,AIAccuracy,TEXT,"""For the AI tools you use as part of your development workflow, what are the MOST important benefits you are hoping to achieve?"""
+Responses,ProfessionalDeveloperParticipation,TEXT,"""Would you like to participate in the Professional Developer Series?"""
+Responses,IndividualContributorOrPeopleManager,TEXT,individual contributor or people manager
+Responses,WorkExp,INTEGER,Years of workign experience
+Responses,InteractionOutsideTeam,TEXT,"Agreement level on ""I have interactions with people outside of my immediate team""."
+Responses,KnowledgeSilos,TEXT,"Agreement level on ""Knowledge silos prevent me from getting ideas across the organization"""
+Responses,UpToDateInformation,TEXT,"Agreement level on ""I can find up-to-date information within my organization to help me do my job."""
+Responses,QuicklyFindAnswers,TEXT,"Aggreement level on ""I am able to quickly find answers to my questions with existing tools and resources."""
+Responses,KnowSystemResource,TEXT,"Aggreement level on ""I know which system or resource to use to find information and answers to questions I have."""
+Responses,ReansweringQuestions,TEXT,"Aggreement level on ""I often find myself answering questions that I’ve already answered before."""
+Responses,WaitingOnAnswers,TEXT,"Aggreement level on ""Waiting on answers to questions often causes interruptions and disrupts my workflow."""
+Responses,CanUnderstandCompany,TEXT,"Aggreement level on ""I feel like I have the tools and/or resources to quickly understand and work on any area of my company's code/system/platform."""
+Responses,NeedHelpOutsideTeamFreq,TEXT,Frequency of needing help from people outside immediate team
+Responses,InteractionOutsideTeamFreq,TEXT,Frequency of interaction with people outside immediate team
+Responses,KnowledgeSilosFreq,TEXT,Frequency of encountering knowledge silos at work
+Responses,TimeSearching,TEXT,Average time spent searching for answers or solutions to problems encountered at work
+Responses,TimeAnswering,TEXT,Average time spent answering questions at work
+Responses,Industry,TEXT,"""What industry is the company you work for in?"""
+Responses,SurveyLength,TEXT,"""How do you feel about the length of the survey this year?"""
+Responses,SurveyEase,TEXT,"""How easy or difficult was this survey to complete?"""
+Responses,ConvertedCompYearly,INTEGER,Current total annual compensation converted into USD
+Employment,id,INTEGER,Unique ID for Employment instances
+Employment,Name,TEXT,Status of Employment
+Languages,id,INTEGER,Unique ID for Languages instances
+Languages,Name,TEXT,Programming Languages
+CodingActivities,id,INTEGER,Unique ID for CodingActivities instances
+CodingActivities,Name,TEXT,Code Written outside of work
+AIBenefits,id,INTEGER,Unique ID for AIBenefits instances
+AIBenefits,Name,TEXT,Trust in the accuracy of the output from AI tools as part of development workflow
+LearningToCodePlatforms,id,INTEGER,Unique ID for LearningToCodePlatforms instances
+LearningToCodePlatforms,Name,TEXT,Online courses or certifications used to learn to code
+NewCollabTools,id,INTEGER,Unique ID for NewCollabTools instances
+NewCollabTools,Name,TEXT,Development environments used and want to work with
+OperatingSystems,id,INTEGER,Unique ID for OperatingSystems instances
+OperatingSystems,Name,TEXT,Operating Systems
+NEWSOSites,id,INTEGER,Unique ID for NEWSOSites instances
+NEWSOSites,Name,TEXT,"Answers to ""Which of the following Stack Overflow sites have you visited?"""
+LearningToCodeMethods,id,INTEGER,Unique ID for LearningToCodeMethods instances
+LearningToCodeMethods,Name,TEXT,Methods to learn to code
+ProfessionalTech,id,INTEGER,Unique ID for ProfessionalTech instances
+ProfessionalTech,Name,TEXT,Technologies available at the respondent's company
+BuyNewTool,id,INTEGER,Unique ID for BuyNewTool instances
+BuyNewTool,Name,TEXT,"""When buying a new tool or software, how do you discover and research available solutions?"""
+TechTools,id,INTEGER,Unique ID for TechTools instances
+TechTools,Name,TEXT,"Developer tools for compiling, building and testing"
+AISearch,id,INTEGER,Unique ID for AISearch instances
+AISearch,Name,TEXT,AI-powered search tools
+AIToolUsage,id,INTEGER,Unique ID for AIToolUsage instances
+AIToolUsage,Name,TEXT,Usages for AI Tools
+WebFrameworks,id,INTEGER,Unique ID for WebFrameworks instances
+WebFrameworks,Name,TEXT,Web Frameworks
+AIDev,id,INTEGER,Unique ID for AIDev instances
+AIDev,Name,TEXT,AI-powered developer tools
+Databases,id,INTEGER,Unique ID for Databases instances
+Databases,Name,TEXT,Databases
+MiscTech,id,INTEGER,Unique ID for MiscTech instances
+MiscTech,Name,TEXT,Miscellaneous Technologies
+LearningToCodeOnlineResources,id,INTEGER,Unique ID for LearningToCodeOnlineResources instances
+LearningToCodeOnlineResources,Name,TEXT,Online Resources to learn to code
+Platforms,id,INTEGER,Unique ID for Platforms instances
+Platforms,Name,TEXT,Cloud Platforms
+OfficeStackSync,id,INTEGER,Unique ID for OfficeStackSync instances
+OfficeStackSync,Name,TEXT,Communication Tools at the workplace
+OfficeStackAsync,id,INTEGER,Unique ID for OfficeStackAsync instances
+OfficeStackAsync,Name,TEXT,Collaborative work management and/or code documentation tools
+SOAI,id,INTEGER,Unique ID for SOAI instances
+SOAI,Name,TEXT,AI usage in StackOverflow
+Response_Employment,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_Employment,Employment_id,INTEGER,Foreign Key (Employment_id) references Employment(id)
+Response_CodingActivities,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_CodingActivities,CodingActivities_id,INTEGER,Foreign Key (CodingActivities_id) references CodingActivities(id)
+Response_LearningToCodeMethods,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_LearningToCodeMethods,LearningToCodeMethods_id,INTEGER,Foreign Key (LearningToCodeMethods_id) references LearningToCodeMethods(id)
+Response_LearningToCodeOnlineResources,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_LearningToCodeOnlineResources,LearningToCodeOnlineResources_id,INTEGER,Foreign Key (LearningToCodeOnlineResources_id) references LearningToCodeOnlineResources(id)
+Response_LearningToCodePlatforms,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_LearningToCodePlatforms,LearningToCodePlatforms_id,INTEGER,Foreign Key (LearningToCodePlatforms_id) references LearningToCodePlatforms(id)
+Response_BuyNewTool,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_BuyNewTool,BuyNewTool_id,INTEGER,Foreign Key (BuyNewTool_id) references BuyNewTool(id)
+Response_LanguageHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_LanguageHaveWorkedWith,Languages_id,INTEGER,Foreign Key (Languages_id) references Languages(id)
+Response_LanguageWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_LanguageWantToWorkWith,Languages_id,INTEGER,Foreign Key (Languages_id) references Languages(id)
+Response_DatabaseHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_DatabaseHaveWorkedWith,Databases_id,INTEGER,Foreign Key (Databases_id) references Databases(id)
+Response_DatabaseWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_DatabaseWantToWorkWith,Databases_id,INTEGER,Foreign Key (Databases_id) references Databases(id)
+Response_PlatformHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_PlatformHaveWorkedWith,Platforms_id,INTEGER,Foreign Key (Platforms_id) references Platforms(id)
+Response_PlatformWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_PlatformWantToWorkWith,Platforms_id,INTEGER,Foreign Key (Platforms_id) references Platforms(id)
+Response_WebframeHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_WebframeHaveWorkedWith,WebFrameworks_id,INTEGER,Foreign Key (WebFrameworks_id) references WebFrameworks(id)
+Response_WebframeWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_WebframeWantToWorkWith,WebFrameworks_id,INTEGER,Foreign Key (WebFrameworks_id) references WebFrameworks(id)
+Response_MiscTechHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_MiscTechHaveWorkedWith,MiscTech_id,INTEGER,Foreign Key (MiscTech_id) references MiscTech(id)
+Response_MiscTechWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_MiscTechWantToWorkWith,MiscTech_id,INTEGER,Foreign Key (MiscTech_id) references MiscTech(id)
+Response_ToolsTechHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_ToolsTechHaveWorkedWith,TechTools_id,INTEGER,Foreign Key (TechTools_id) references TechTools(id)
+Response_ToolsTechWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_ToolsTechWantToWorkWith,TechTools_id,INTEGER,Foreign Key (TechTools_id) references TechTools(id)
+Response_NEWCollabToolsHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_NEWCollabToolsHaveWorkedWith,NewCollabTools_id,INTEGER,Foreign Key (NewCollabTools_id) references NewCollabTools(id)
+Response_NEWCollabToolsWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_NEWCollabToolsWantToWorkWith,NewCollabTools_id,INTEGER,Foreign Key (NewCollabTools_id) references NewCollabTools(id)
+Response_OpSysPersonalUse,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_OpSysPersonalUse,OperatingSystems_id,INTEGER,Foreign Key (OperatingSystems_id) references OperatingSystems(id)
+Response_OpSysProfessionalUse,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_OpSysProfessionalUse,OperatingSystems_id,INTEGER,Foreign Key (OperatingSystems_id) references OperatingSystems(id)
+Response_OfficeStackAsyncHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_OfficeStackAsyncHaveWorkedWith,OfficeStackAsync_id,INTEGER,Foreign Key (OfficeStackAsync_id) references OfficeStackAsync(id)
+Response_OfficeStackAsyncWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_OfficeStackAsyncWantToWorkWith,OfficeStackAsync_id,INTEGER,Foreign Key (OfficeStackAsync_id) references OfficeStackAsync(id)
+Response_OfficeStackSyncHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_OfficeStackSyncHaveWorkedWith,OfficeStackSync_id,INTEGER,Foreign Key (OfficeStackSync_id) references OfficeStackSync(id)
+Response_OfficeStackSyncWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_OfficeStackSyncWantToWorkWith,OfficeStackSync_id,INTEGER,Foreign Key (OfficeStackSync_id) references OfficeStackSync(id)
+Response_AISearchHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AISearchHaveWorkedWith,AISearch_id,INTEGER,Foreign Key (AISearch_id) references AISearch(id)
+Response_AISearchWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AISearchWantToWorkWith,AISearch_id,INTEGER,Foreign Key (AISearch_id) references AISearch(id)
+Response_AIDevHaveWorkedWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AIDevHaveWorkedWith,AIDev_id,INTEGER,Foreign Key (AIDev_id) references AIDev(id)
+Response_AIDevWantToWorkWith,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AIDevWantToWorkWith,AIDev_id,INTEGER,Foreign Key (AIDev_id) references AIDev(id)
+Response_NEWSOSites,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_NEWSOSites,NEWSOSites_id,INTEGER,Foreign Key (NEWSOSites_id) references NEWSOSites(id)
+Response_SOAI,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_SOAI,SOAI_id,INTEGER,Foreign Key (SOAI_id) references SOAI(id)
+Response_AIBenefits,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AIBenefits,AIBenefits_id,INTEGER,Foreign Key (AIBenefits_id) references AIBenefits(id)
+Response_AIToolInterestedInUsing,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AIToolInterestedInUsing,AIToolUsage_id,INTEGER,Foreign Key (AIToolUsage_id) references AIToolUsage(id)
+Response_AIToolCurrentlyUsing,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AIToolCurrentlyUsing,AIToolUsage_id,INTEGER,Foreign Key (AIToolUsage_id) references AIToolUsage(id)
+Response_AIToolNotInterestedInUsing,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AIToolNotInterestedInUsing,AIToolUsage_id,INTEGER,Foreign Key (AIToolUsage_id) references AIToolUsage(id)
+Response_AINextVeryDifferent,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AINextVeryDifferent,AIToolUsage_id,INTEGER,Foreign Key (AIToolUsage_id) references AIToolUsage(id)
+Response_AINextNeitherDifferentNorSimilar,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AINextNeitherDifferentNorSimilar,AIToolUsage_id,INTEGER,Foreign Key (AIToolUsage_id) references AIToolUsage(id)
+Response_AINextSomewhatSimilar,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AINextSomewhatSimilar,AIToolUsage_id,INTEGER,Foreign Key (AIToolUsage_id) references AIToolUsage(id)
+Response_AINextVerySimilar,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AINextVerySimilar,AIToolUsage_id,INTEGER,Foreign Key (AIToolUsage_id) references AIToolUsage(id)
+Response_AINextSomewhatDifferent,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_AINextSomewhatDifferent,AIToolUsage_id,INTEGER,Foreign Key (AIToolUsage_id) references AIToolUsage(id)
+Response_ProfessionalTech,Response_id,INTEGER,Foreign Key (Response_id) references Responses(id)
+Response_ProfessionalTech,ProfessionalTech_id,INTEGER,Foreign Key (ProfessionalTech_id) references ProfessionalTech(id)

@@ -1,0 +1,67 @@
+Table,Description
+Responses,Main table with single option responses
+Employment,Status of Employment
+Languages,Programming Languages
+CodingActivities,Code Written outside of work
+AIBenefits,Trust in the accuracy of the output from AI tools as part of development workflow
+LearningToCodePlatforms,Online courses or certifications used to learn to code
+NewCollabTools,Development environments used and want to work with
+OperatingSystems,Operating Systems
+NEWSOSites,"Answers to ""Which of the following Stack Overflow sites have you visited?"""
+LearningToCodeMethods,Methods to learn to code
+ProfessionalTech,Technologies available at the respondent's company
+BuyNewTool,"""When buying a new tool or software, how do you discover and research available solutions?"""
+TechTools,"Developer tools for compiling, building and testing"
+AISearch,AI-powered search tools
+AIToolUsage,Usages for AI Tools
+WebFrameworks,Web Frameworks
+AIDev,AI-powered developer tools
+Databases,Databases
+MiscTech,Miscellaneous Technologies
+LearningToCodeOnlineResources,Online Resources to learn to code
+Platforms,Cloud Platforms
+OfficeStackSync,Communication Tools at the workplace
+OfficeStackAsync,Collaborative work management and/or code documentation tools
+SOAI,AI usage in StackOverflow
+Response_Employment,Associative table between Response and Employment
+Response_CodingActivities,Associative table between Response and CodingActivities
+Response_LearningToCodeMethods,Associative table between Response and LearningToCodeMethods
+Response_LearningToCodeOnlineResources,Associative table between Response and LearningToCodeOnlineResources
+Response_LearningToCodePlatforms,Associative table between Response and LearningToCodePlatforms
+Response_BuyNewTool,Associative table between Response and BuyNewTool
+Response_LanguageHaveWorkedWith,Associative table between Response and LanguageHaveWorkedWith
+Response_LanguageWantToWorkWith,Associative table between Response and LanguageWantToWorkWith
+Response_DatabaseHaveWorkedWith,Associative table between Response and DatabaseHaveWorkedWith
+Response_DatabaseWantToWorkWith,Associative table between Response and DatabaseWantToWorkWith
+Response_PlatformHaveWorkedWith,Associative table between Response and PlatformHaveWorkedWith
+Response_PlatformWantToWorkWith,Associative table between Response and PlatformWantToWorkWith
+Response_WebframeHaveWorkedWith,Associative table between Response and WebframeHaveWorkedWith
+Response_WebframeWantToWorkWith,Associative table between Response and WebframeWantToWorkWith
+Response_MiscTechHaveWorkedWith,Associative table between Response and MiscTechHaveWorkedWith
+Response_MiscTechWantToWorkWith,Associative table between Response and MiscTechWantToWorkWith
+Response_ToolsTechHaveWorkedWith,Associative table between Response and ToolsTechHaveWorkedWith
+Response_ToolsTechWantToWorkWith,Associative table between Response and ToolsTechWantToWorkWith
+Response_NEWCollabToolsHaveWorkedWith,Associative table between Response and NEWCollabToolsHaveWorkedWith
+Response_NEWCollabToolsWantToWorkWith,Associative table between Response and NEWCollabToolsWantToWorkWith
+Response_OpSysPersonalUse,Associative table between Response and OpSysPersonalUse
+Response_OpSysProfessionalUse,Associative table between Response and OpSysProfessionalUse
+Response_OfficeStackAsyncHaveWorkedWith,Associative table between Response and OfficeStackAsyncHaveWorkedWith
+Response_OfficeStackAsyncWantToWorkWith,Associative table between Response and OfficeStackAsyncWantToWorkWith
+Response_OfficeStackSyncHaveWorkedWith,Associative table between Response and OfficeStackSyncHaveWorkedWith
+Response_OfficeStackSyncWantToWorkWith,Associative table between Response and OfficeStackSyncWantToWorkWith
+Response_AISearchHaveWorkedWith,Associative table between Response and AISearchHaveWorkedWith
+Response_AISearchWantToWorkWith,Associative table between Response and AISearchWantToWorkWith
+Response_AIDevHaveWorkedWith,Associative table between Response and AIDevHaveWorkedWith
+Response_AIDevWantToWorkWith,Associative table between Response and AIDevWantToWorkWith
+Response_NEWSOSites,Associative table between Response and NEWSOSites
+Response_SOAI,Associative table between Response and SOAI
+Response_AIBenefits,Associative table between Response and AIBenefits
+Response_AIToolInterestedInUsing,Associative table between Response and AIToolInterestedInUsing
+Response_AIToolCurrentlyUsing,Associative table between Response and AIToolCurrentlyUsing
+Response_AIToolNotInterestedInUsing,Associative table between Response and AIToolNotInterestedInUsing
+Response_AINextVeryDifferent,Associative table between Response and AINextVeryDifferent
+Response_AINextNeitherDifferentNorSimilar,Associative table between Response and AINextNeitherDifferentNorSimilar
+Response_AINextSomewhatSimilar,Associative table between Response and AINextSomewhatSimilar
+Response_AINextVerySimilar,Associative table between Response and AINextVerySimilar
+Response_AINextSomewhatDifferent,Associative table between Response and AINextSomewhatDifferent
+Response_ProfessionalTech,Associative table between Response and ProfessionalTech
